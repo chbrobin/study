@@ -4,6 +4,8 @@ import java.io.*;
 
 /**
  * Created by Administrator on 2017/6/1 0001.
+ * 如果用transient声明一个实例变量，当对象存储时，它的值不需要维持。
+ * 换句话来说就是，用transient关键字标记的成员变量不参与序列化过程
  */
 public class TransientTest implements Serializable {
     public transient String pwd;
@@ -11,30 +13,30 @@ public class TransientTest implements Serializable {
     public String name;
     public static void main(String[] args) throws Exception {
         try {
-            TransientTest tt = new TransientTest();
-            tt.setName("aa");
-            tt.setPwd("bb");
+            TransientTest initTt = new TransientTest();
+            initTt.setName("aa");
+            initTt.setPwd("bb");
             //初始时staticVar为5
             ObjectOutputStream out = new ObjectOutputStream(
-                    new FileOutputStream("D:\\result.obj"));
-            out.writeObject(tt);
+                    new FileOutputStream("result.obj"));
+            out.writeObject(initTt);
             out.close();
 
-            System.out.println("tt toString " + tt.toString());
+            System.out.println("initTt toString " + initTt.toString());
 
             //序列化后修改为10
             TransientTest.staticVar = 10;
 
             ObjectInputStream oin = new ObjectInputStream(new FileInputStream(
-                    "D:\\result.obj"));
-            TransientTest t = (TransientTest) oin.readObject();
+                    "result.obj"));
+            TransientTest storeTt = (TransientTest) oin.readObject();
             oin.close();
 
             //再读取，通过t.staticVar打印新的值
-            System.out.println(t.staticVar);
-            System.out.println(t.getName());
-            System.out.println(t.getPwd());
-            System.out.println("t toString " + t.toString());
+            System.out.println(storeTt.staticVar);
+            System.out.println(storeTt.getName());
+            System.out.println(storeTt.getPwd());
+            System.out.println("storeTt toString " + storeTt.toString());
 
         } catch (FileNotFoundException e) {
             e.printStackTrace();
