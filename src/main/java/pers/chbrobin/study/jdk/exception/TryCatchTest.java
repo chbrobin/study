@@ -1,10 +1,10 @@
-package pers.chbrobin.study.jdk;
+package pers.chbrobin.study.jdk.exception;
 
 /**
  * Created by Administrator on 2017/6/3 0003.
  * try catch 为何还要比无 try catch 要快一些？
  */
-public class ExceptionTest {
+public class TryCatchTest {
     private static int increaseTry = 0;
     private static int increaseFinally = 0;
     private static int increaseCommon = 0;
