@@ -4,15 +4,15 @@ import java.io.*;
 
 /**
  * Created by Administrator on 2017/6/1 0001.
- * Èç¹ûÓÃtransientÉùÃ÷Ò»¸öÊµÀı±äÁ¿£¬µ±¶ÔÏó´æ´¢Ê±£¬ËüµÄÖµ²»ĞèÒªÎ¬³Ö¡£
- * »»¾ä»°À´Ëµ¾ÍÊÇ£¬ÓÃtransient¹Ø¼ü×Ö±ê¼ÇµÄ³ÉÔ±±äÁ¿²»²ÎÓëĞòÁĞ»¯¹ı³Ì
+ * å¦‚æœç”¨transientå£°æ˜ä¸€ä¸ªå®ä¾‹å˜é‡ï¼Œå½“å¯¹è±¡å­˜å‚¨æ—¶ï¼Œå®ƒçš„å€¼ä¸éœ€è¦ç»´æŒã€‚
+ * æ¢å¥è¯æ¥è¯´å°±æ˜¯ï¼Œç”¨transientå…³é”®å­—æ ‡è®°çš„æˆå‘˜å˜é‡ä¸å‚ä¸åºåˆ—åŒ–è¿‡ç¨‹
  *
- * ¸¸ÀàµÄĞòÁĞ»¯Óë Transient ¹Ø¼ü×Ö
- * Ò»¸ö×ÓÀàÊµÏÖÁË Serializable ½Ó¿Ú£¬ËüµÄ¸¸Àà¶¼Ã»ÓĞÊµÏÖ Serializable ½Ó¿Ú£¬ĞòÁĞ»¯¸Ã×ÓÀà¶ÔÏó£¬È»ºó·´ĞòÁĞ»¯ºóÊä³ö¸¸Àà¶¨ÒåµÄÄ³±äÁ¿µÄÊıÖµ£¬¸Ã±äÁ¿ÊıÖµÓëĞòÁĞ»¯Ê±µÄÊıÖµ²»Í¬
+ * çˆ¶ç±»çš„åºåˆ—åŒ–ä¸ Transient å…³é”®å­—
+ * ä¸€ä¸ªå­ç±»å®ç°äº† Serializable æ¥å£ï¼Œå®ƒçš„çˆ¶ç±»éƒ½æ²¡æœ‰å®ç° Serializable æ¥å£ï¼Œåºåˆ—åŒ–è¯¥å­ç±»å¯¹è±¡ï¼Œç„¶åååºåˆ—åŒ–åè¾“å‡ºçˆ¶ç±»å®šä¹‰çš„æŸå˜é‡çš„æ•°å€¼ï¼Œè¯¥å˜é‡æ•°å€¼ä¸åºåˆ—åŒ–æ—¶çš„æ•°å€¼ä¸åŒ
  *
- * Java ĞòÁĞ»¯»úÖÆÎªÁË½ÚÊ¡´ÅÅÌ¿Õ¼ä£¬¾ßÓĞÌØ¶¨µÄ´æ´¢¹æÔò£¬µ±Ğ´ÈëÎÄ¼şµÄÎªÍ¬Ò»¶ÔÏóÊ±£¬²¢²»»áÔÙ½«¶ÔÏóµÄÄÚÈİ½øĞĞ´æ´¢£¬
- * ¶øÖ»ÊÇÔÙ´Î´æ´¢Ò»·İÒıÓÃ£¬ÉÏÃæÔö¼ÓµÄ 5 ×Ö½ÚµÄ´æ´¢¿Õ¼ä¾ÍÊÇĞÂÔöÒıÓÃºÍÒ»Ğ©¿ØÖÆĞÅÏ¢µÄ¿Õ¼ä¡£·´ĞòÁĞ»¯Ê±£¬»Ö¸´ÒıÓÃ¹ØÏµ£¬
- * Ê¹µÃÇåµ¥ 3 ÖĞµÄ t1 ºÍ t2 Ö¸ÏòÎ¨Ò»µÄ¶ÔÏó£¬¶şÕßÏàµÈ£¬Êä³ö true¡£¸Ã´æ´¢¹æÔò¼«´óµÄ½ÚÊ¡ÁË´æ´¢¿Õ¼ä¡£
+ * Java åºåˆ—åŒ–æœºåˆ¶ä¸ºäº†èŠ‚çœç£ç›˜ç©ºé—´ï¼Œå…·æœ‰ç‰¹å®šçš„å­˜å‚¨è§„åˆ™ï¼Œå½“å†™å…¥æ–‡ä»¶çš„ä¸ºåŒä¸€å¯¹è±¡æ—¶ï¼Œå¹¶ä¸ä¼šå†å°†å¯¹è±¡çš„å†…å®¹è¿›è¡Œå­˜å‚¨ï¼Œ
+ * è€Œåªæ˜¯å†æ¬¡å­˜å‚¨ä¸€ä»½å¼•ç”¨ï¼Œä¸Šé¢å¢åŠ çš„ 5 å­—èŠ‚çš„å­˜å‚¨ç©ºé—´å°±æ˜¯æ–°å¢å¼•ç”¨å’Œä¸€äº›æ§åˆ¶ä¿¡æ¯çš„ç©ºé—´ã€‚ååºåˆ—åŒ–æ—¶ï¼Œæ¢å¤å¼•ç”¨å…³ç³»ï¼Œ
+ * ä½¿å¾—æ¸…å• 3 ä¸­çš„ t1 å’Œ t2 æŒ‡å‘å”¯ä¸€çš„å¯¹è±¡ï¼ŒäºŒè€…ç›¸ç­‰ï¼Œè¾“å‡º trueã€‚è¯¥å­˜å‚¨è§„åˆ™æå¤§çš„èŠ‚çœäº†å­˜å‚¨ç©ºé—´ã€‚
  */
 public class SerializableTest implements Serializable {
     private static final long serialVersionUID = 1L;
@@ -24,7 +24,7 @@ public class SerializableTest implements Serializable {
             SerializableTest initTt = new SerializableTest();
             initTt.setName("aa");
             initTt.setPwd("bb");
-            //³õÊ¼Ê±staticVarÎª5
+            //åˆå§‹æ—¶staticVarä¸º5
             ObjectOutputStream out = new ObjectOutputStream(
                     new FileOutputStream("result.obj"));
             out.writeObject(initTt);
@@ -32,7 +32,7 @@ public class SerializableTest implements Serializable {
 
             System.out.println("initTt toString " + initTt.toString());
 
-            //ĞòÁĞ»¯ºóĞŞ¸ÄÎª10
+            //åºåˆ—åŒ–åä¿®æ”¹ä¸º10
 //            TransientTest.staticVar = 10;
 
             ObjectInputStream oin = new ObjectInputStream(new FileInputStream(
@@ -40,7 +40,7 @@ public class SerializableTest implements Serializable {
             SerializableTest storeTt = (SerializableTest) oin.readObject();
             oin.close();
 
-            //ÔÙ¶ÁÈ¡£¬Í¨¹ıt.staticVar´òÓ¡ĞÂµÄÖµ
+            //å†è¯»å–ï¼Œé€šè¿‡t.staticVaræ‰“å°æ–°çš„å€¼
             System.out.println(storeTt.staticVar);
             System.out.println(storeTt.getName());
             System.out.println(storeTt.getPwd());
@@ -56,13 +56,13 @@ public class SerializableTest implements Serializable {
     }
 
     /**
-     * Ô¼¶¨·½·¨Ãû
+     * çº¦å®šæ–¹æ³•å
      */
     private void writeObject(ObjectOutputStream out) {
         try {
             ObjectOutputStream.PutField putFields = out.putFields();
             System.out.println("old :" + pwd);
-            pwd = "encryption";//Ä£Äâ¼ÓÃÜ
+            pwd = "encryption";//æ¨¡æ‹ŸåŠ å¯†
             putFields.put("pwd", pwd);
             System.out.println("jiami" + pwd);
             out.writeFields();
@@ -72,14 +72,14 @@ public class SerializableTest implements Serializable {
     }
 
     /**
-     * Ô¼¶¨·½·¨Ãû
+     * çº¦å®šæ–¹æ³•å
      */
     private void readObject(ObjectInputStream in) {
         try {
             ObjectInputStream.GetField readFields = in.readFields();
             Object object = readFields.get("pwd", "");
             System.out.println("jiemi:" + object.toString());
-            pwd = "pass";//Ä£Äâ½âÃÜ,ĞèÒª»ñµÃ±¾µØµÄÃÜÔ¿
+            pwd = "pass";//æ¨¡æ‹Ÿè§£å¯†,éœ€è¦è·å¾—æœ¬åœ°çš„å¯†é’¥
         } catch (IOException e) {
             e.printStackTrace();
         } catch (ClassNotFoundException e) {

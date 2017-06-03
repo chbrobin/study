@@ -6,15 +6,15 @@ import java.util.Objects;
 
 /**
  Created by Administrator on 2017/6/2 0002.
- javaÖĞÃ»ÓĞÏÖ³ÉµÄsizeofµÄÊµÏÖ£¬Ô­ÒòÖ÷ÒªÊÇjavaÖĞµÄ»ù±¾Êı¾İÀàĞÍµÄ´óĞ¡¶¼ÊÇ¹Ì¶¨µÄ£¬ËùÒÔ¿´ÉÏÈ¥Ã»ÓĞ±ØÒªÓÃsizeofÕâ¸ö¹Ø¼ü×Ö
- int     32bit  -2,147,483,648µ½2,147,483,647 Ä¬ÈÏÎª0
- short   16bit -32,768µ½32,767  Ä¬ÈÏÎª0
- long    64bit  -9,223,372,036,854,775,808Lµ½9,223,372,036,854,775,807L  Ä¬ÈÏÎª0L
- byte    8bit -128µ½127  Ä¬ÈÏÎª0
+ javaä¸­æ²¡æœ‰ç°æˆçš„sizeofçš„å®ç°ï¼ŒåŸå› ä¸»è¦æ˜¯javaä¸­çš„åŸºæœ¬æ•°æ®ç±»å‹çš„å¤§å°éƒ½æ˜¯å›ºå®šçš„ï¼Œæ‰€ä»¥çœ‹ä¸Šå»æ²¡æœ‰å¿…è¦ç”¨sizeofè¿™ä¸ªå…³é”®å­—
+ int     32bit  -2,147,483,648åˆ°2,147,483,647 é»˜è®¤ä¸º0
+ short   16bit -32,768åˆ°32,767  é»˜è®¤ä¸º0
+ long    64bit  -9,223,372,036,854,775,808Låˆ°9,223,372,036,854,775,807L  é»˜è®¤ä¸º0L
+ byte    8bit -128åˆ°127  é»˜è®¤ä¸º0
  char    16bit
- float   32bit Ô¼+¡ª3.40282347E+38F£¨6~7¸öÓĞĞ§µÄÊ®½øÖÆÊıÎ»£© Ä¬ÈÏÎª0.0F
- double  64bit Ô¼+-1.79769313486231570E+308£¨15¸öÓĞĞ§ÊıÎ»£©  Ä¬ÈÏÎª0.0D
- boolean 1bit£¬This data type represents one bit of information, but its "size" isn't something that's precisely defined.£¨ref£©
+ float   32bit çº¦+â€”3.40282347E+38Fï¼ˆ6~7ä¸ªæœ‰æ•ˆçš„åè¿›åˆ¶æ•°ä½ï¼‰ é»˜è®¤ä¸º0.0F
+ double  64bit çº¦+-1.79769313486231570E+308ï¼ˆ15ä¸ªæœ‰æ•ˆæ•°ä½ï¼‰  é»˜è®¤ä¸º0.0D
+ boolean 1bitï¼ŒThis data type represents one bit of information, but its "size" isn't something that's precisely defined.ï¼ˆrefï¼‰
 
  8 boolean byte
  16 char short
@@ -36,9 +36,8 @@ public class SizeOfTest {
         System.out.println(numberCharacter.getBytes().length); // 1
         String englishCharacter="c";
         System.out.println(englishCharacter.getBytes().length); // 1
-        String chineseCharacter="ÎÒ";
+        String chineseCharacter="æˆ‘";
         System.out.println(chineseCharacter.getBytes().length); // 2
 
-        System.out.println(SizeOf.sizeOf(chineseCharacter));
     }
 }

@@ -14,9 +14,9 @@ import java.util.regex.Pattern;
  */
 public class ExpressionTest {
     /**
-     * ËÄÔòÔËËã±í´ïÊ½¼ÆËã
-     * @param expression  ËÄÔòÔËËã±í´ïÊ½
-     * @param jo json½á¹ûÄÚÈİ
+     * å››åˆ™è¿ç®—è¡¨è¾¾å¼è®¡ç®—
+     * @param expression  å››åˆ™è¿ç®—è¡¨è¾¾å¼
+     * @param jo jsonç»“æœå†…å®¹
      */
     public static String calculateExpressionValue(String expression,JSONObject jo) {
         if(jo == null) {
@@ -26,7 +26,7 @@ public class ExpressionTest {
         try {
             StringBuffer sb = new StringBuffer();
             while (m.find()) {
-                String param = m.group(); //${id?} id Æ¥Åä
+                String param = m.group(); //${id?} id åŒ¹é…
                 String field = param.substring(2, param.length() - 1);
                 Object value = jo.get(field);
                 m.appendReplacement(sb, value != null ? value.toString() : "0");

@@ -2,10 +2,10 @@ package pers.chbrobin.study.jdk;
 
 /**
  * Created by Administrator on 2017/6/1 0001.
- * assertion¼ì²éÍ¨³£ÔÚ¿ª·¢ºÍ²âÊÔÊ±¿ªÆô¡£ÎªÁËÌá¸ßĞÔÄÜ£¬ÔÚÈí¼ş·¢²¼ºó£¬assertion¼ì²éÍ¨³£ÊÇ¹Ø±ÕµÄ
+ * assertionæ£€æŸ¥é€šå¸¸åœ¨å¼€å‘å’Œæµ‹è¯•æ—¶å¼€å¯ã€‚ä¸ºäº†æé«˜æ€§èƒ½ï¼Œåœ¨è½¯ä»¶å‘å¸ƒåï¼Œassertionæ£€æŸ¥é€šå¸¸æ˜¯å…³é—­çš„
  * assert expression1;
  2.assert expression1: expression2;
- * vm¿ªÆô¼ÓÈë²ÎÊı -ea
+ * vmå¼€å¯åŠ å…¥å‚æ•° -ea
  */
 public class AssertTest {
 
