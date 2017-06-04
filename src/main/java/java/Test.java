@@ -7,6 +7,10 @@ package java;
  */
 public class Test {
 
+    /**
+     * Prohibited package name: java
+     * @throws java.lang.SecurityException
+     */
     public static void main(String[] args) {
         Test test = new Test(); // throw java.lang.SecurityException
     }

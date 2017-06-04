@@ -7,12 +7,15 @@ import java.util.concurrent.Executors;
 
 /**
  * Created by Administrator on 2017/6/1 0001.
+ * main 为主线程，程序入口
  */
 public class ThreadTest {
     public static void main(String[] args) throws Exception {
+        System.out.println("current thread " + Thread.currentThread());
         final List<Long> idList = new ArrayList<Long>();
         Runnable runnable = new Runnable() {
             public void run() {
+                System.out.println("current thread " + Thread.currentThread());
                 try {
                     Thread.sleep(2000);
                 } catch (InterruptedException e) {
@@ -32,7 +35,5 @@ public class ThreadTest {
         service.submit(myThread);
         service.submit(myCallable);
 
-        Thread t = Thread.currentThread();
-        System.out.println(t.toString());
     }
 }
