@@ -17,9 +17,9 @@ public class CloneTest implements Cloneable {
         SubCloneObject subCloneObject = new SubCloneObject(1000L);
         ct1.subCloneObject = subCloneObject;
 
-        CloneTest ct2 = ct1.clone();
+        CloneTest ct2 = (CloneTest)ct1.clone();
         CloneTest.isCloneDate = true;
-        CloneTest ct3 = ct1.clone();
+        CloneTest ct3 = (CloneTest)ct1.clone();
         ct1.subCloneObject.setLongVar(2000L);
         System.out.println("ct1 " + ct1.toString() + " subCloneObject " + ct1.subCloneObject.toString() + " longVar " + ct1.subCloneObject.getLongVar());
         System.out.println("ct2 " + ct2.toString() + " subCloneObject " + ct2.subCloneObject.toString() + " longVar " + ct2.subCloneObject.getLongVar());
@@ -37,7 +37,7 @@ public class CloneTest implements Cloneable {
     }
 
     @SuppressWarnings("unchecked")
-    public CloneTest clone() throws CloneNotSupportedException {
+    public Object clone() throws CloneNotSupportedException {
         CloneTest cloneTest = (CloneTest)super.clone();
         if(isCloneDate) {
             cloneTest.subCloneObject = (SubCloneObject) subCloneObject.clone();
