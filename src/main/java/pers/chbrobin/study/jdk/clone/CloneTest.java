@@ -20,7 +20,7 @@ public class CloneTest implements Cloneable {
         CloneTest ct2 = ct1.clone();
         CloneTest.isCloneDate = true;
         CloneTest ct3 = ct1.clone();
-//        ct1.subCloneObject.setLongVar(2000L);
+        ct1.subCloneObject.setLongVar(2000L);
         System.out.println("ct1 " + ct1.toString() + " subCloneObject " + ct1.subCloneObject.toString() + " longVar " + ct1.subCloneObject.getLongVar());
         System.out.println("ct2 " + ct2.toString() + " subCloneObject " + ct2.subCloneObject.toString() + " longVar " + ct2.subCloneObject.getLongVar());
         System.out.println("ct3 " + ct3.toString() + " subCloneObject " + ct3.subCloneObject.toString() + " longVar " + ct3.subCloneObject.getLongVar());
