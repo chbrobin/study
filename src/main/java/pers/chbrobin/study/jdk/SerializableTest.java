@@ -26,7 +26,7 @@ public class SerializableTest implements Serializable {
             initTt.setPwd("bb");
             //初始时staticVar为5
             ObjectOutputStream out = new ObjectOutputStream(
-                    new FileOutputStream("result.obj"));
+                    new FileOutputStream("target/result.obj"));
             out.writeObject(initTt);
             out.close();
 
@@ -36,7 +36,7 @@ public class SerializableTest implements Serializable {
 //            TransientTest.staticVar = 10;
 
             ObjectInputStream oin = new ObjectInputStream(new FileInputStream(
-                    "result.obj"));
+                    "target/result.obj"));
             SerializableTest storeTt = (SerializableTest) oin.readObject();
             oin.close();
 
