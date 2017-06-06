@@ -1,4 +1,4 @@
-package pers.chbrobin.study.jdk.socket;
+package pers.chbrobin.study.socket;
 
 import java.io.File;
 import java.io.FileInputStream;
