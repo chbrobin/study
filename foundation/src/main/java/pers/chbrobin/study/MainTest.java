@@ -9,6 +9,8 @@ import java.util.Arrays;
  */
 public class MainTest {
     public static void main(String[] args) {
+        // java -Djava.test.var=test  设置系统变量
+        System.out.println(System.getProperty("java.test.var"));
         if(args != null && args.length > 0) {
             String str = "";
             for(String arg : args) {

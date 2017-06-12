@@ -5,6 +5,7 @@ package pers.chbrobin.study.pattern.observer;
  */
 public class Observer {
     private String name;
+
     public void update(String name) {
         this.name = name;
     }
@@ -16,3 +17,4 @@ public class Observer {
             }
         });
     }
+}
