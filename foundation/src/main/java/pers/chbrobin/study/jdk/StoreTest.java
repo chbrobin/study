@@ -4,10 +4,10 @@ import java.util.List;
 
 /**
  * Created by Administrator on 2017/6/2 0002.
- * ¼Ä´æÆ÷
- * Õ» »ù±¾ÀàĞÍ ·Çnew×Ö·û´®
- * ¶Ñ ¶ÔÏó
- * String immutability ·Ç¿É±äĞÔ
+ * å¯„å­˜å™¨
+ * æ ˆ åŸºæœ¬ç±»å‹ énewå­—ç¬¦ä¸²
+ * å † å¯¹è±¡
+ * String immutability éå¯å˜æ€§
  */
 public class StoreTest {
 
