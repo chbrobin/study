@@ -19,15 +19,15 @@ public class LambdaTest {
             System.out.println(name);
         }
 
-        friends.forEach(new Consumer<String>() {
-            public void accept(final String name) {
-                System.out.println(name);
-            }
-        });
-        friends.forEach((final String name) -> System.out.println(name));
-
-        new Thread(() -> {
-            System.out.println("test starting ....");
-        }).start();
+//        friends.forEach(new Consumer<String>() {
+//            public void accept(final String name) {
+//                System.out.println(name);
+//            }
+//        });
+//        friends.forEach((final String name) -> System.out.println(name));
+//
+//        new Thread(() -> {
+//            System.out.println("test starting ....");
+//        }).start();
     }
 }
