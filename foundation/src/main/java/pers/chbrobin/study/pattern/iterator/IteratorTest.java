@@ -3,6 +3,8 @@ package pers.chbrobin.study.pattern.iterator;
 /**
  * Created by Administrator on 2017/6/10 0010.
  * 扫描货架测试类
+ *
+ * JDK场景 ArrayList iterator
  */
 public class IteratorTest {
     public static void main(String[] args) {

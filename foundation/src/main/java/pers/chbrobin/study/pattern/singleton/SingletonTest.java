@@ -4,6 +4,7 @@ import java.lang.reflect.Constructor;
 
 /**
  * Created by Administrator on 2017/6/11 0011.
+ * JDK场景 java.lang.Runtime; java.text.NumberFormat
  */
 public class SingletonTest {
     public static void main(String[] args) throws Exception {
