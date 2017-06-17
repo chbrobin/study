@@ -14,7 +14,10 @@ package pers.chbrobin.study.pattern.interpreter;
  *  执行效率不是关键问题。【注：高效的解释器通常不是通过直接解释抽象语法树来实现的，
  *  而是需要将它们转换成其他形式，使用解释器模式的执行效率并不高。】
  *
- *  实际应用场景 正则表达式
+ *  JDK应用场景
+ *  @see java.util.regex.Pattern
+ *  @see java.text.Normalizer
+ *  @see java.text.Format
  */
 public class InterpreterTest {
 }
