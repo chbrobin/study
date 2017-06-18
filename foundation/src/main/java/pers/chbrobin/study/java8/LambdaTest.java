@@ -2,7 +2,6 @@ package pers.chbrobin.study.java8;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.function.Consumer;
 
 /**
  * Created by Administrator on 2017/6/14 0014.

@@ -9,27 +9,14 @@ public class InterruptedTest {
     public static void main(String[] args) {
         Thread thread = new Thread(new Runnable() {
             public void run() {
-                System.out.println("test interrupted");
-
                 try {
-                    wait();
+                    Thread.sleep(1000);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
             }
         });
         thread.start();
-
-        try {
-            Thread.sleep(100);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-
-        try {
-            thread.join();
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+        thread.interrupt();
     }
 }

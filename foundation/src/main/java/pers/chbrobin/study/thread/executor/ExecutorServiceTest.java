@@ -10,23 +10,33 @@ import java.util.concurrent.Executors;
 public class ExecutorServiceTest {
     public static void main(String[] args) {
         ExecutorService executorServiceFixed = Executors.newFixedThreadPool(5);
-        for(int i = 0; i < 20; i ++) {
+        for(int i = 0; i < 10; i ++) {
             Runnable runnable = new Runnable() {
                 public void run() {
-//                    System.out.println("threadName "  + Thread.currentThread().getName());
+                    System.out.println("executorServiceFixed threadName "  + Thread.currentThread().getName());
                 }
             };
             executorServiceFixed.execute(runnable);
         }
 
-        ExecutorService executorServiceCached = Executors.newCachedThreadPool();
-        for(int i = 0; i < 100; i ++) {
+        ExecutorService newCachedThreadPool = Executors.newCachedThreadPool();
+        for(int i = 0; i < 10; i ++) {
             Runnable runnable = new Runnable() {
                 public void run() {
-                    System.out.println("threadName "  + Thread.currentThread().getName());
+                    System.out.println("executorServiceFixed threadName "  + Thread.currentThread().getName());
                 }
             };
-            executorServiceCached.execute(runnable);
+            newCachedThreadPool.execute(runnable);
+        }
+
+        ExecutorService newSingleThreadExecutor = Executors.newSingleThreadExecutor();
+        for(int i = 0; i < 10; i ++) {
+            Runnable runnable = new Runnable() {
+                public void run() {
+                    System.out.println("newSingleThreadExecutor threadName "  + Thread.currentThread().getName());
+                }
+            };
+            newSingleThreadExecutor.execute(runnable);
         }
     }
 }
