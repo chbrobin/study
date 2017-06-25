@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b195f70d-d9f0-4678-a09f-4d99007d3cd8" name="Default" comment="partten code update">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_3_2_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_1_9_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_launcher_1_9_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foundation/src/main/java/pers/chbrobin/study/jvm/memory/StackOutOfMemoryTest.java" />
+    <list default="true" id="b195f70d-d9f0-4678-a09f-4d99007d3cd8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/foundation/src/main/java/pers/chbrobin/study/pattern/interpreter/InterpreterTest.java" afterPath="$PROJECT_DIR$/foundation/src/main/java/pers/chbrobin/study/pattern/interpreter/InterpreterTest.java" />
     </list>
     <ignored path="study.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -763,7 +757,7 @@
       <workItem from="1498308071203" duration="7662000" />
       <workItem from="1498359569014" duration="4601000" />
       <workItem from="1498382956363" duration="639000" />
-      <workItem from="1498383799514" duration="7272000" />
+      <workItem from="1498383799514" duration="7590000" />
     </task>
     <task id="LOCAL-00001" summary="thread code update">
       <created>1498383350621</created>
@@ -783,11 +777,17 @@
       <option name="project" value="LOCAL" />
       <updated>1498399401551</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="partten code update">
+      <created>1498410610834</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1498410610834</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20174000" />
+    <option name="totallyTimeSpent" value="20492000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1031" extended-state="0" />
