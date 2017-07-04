@@ -20,6 +20,5 @@ public class StaticTest {
     public static void main(String[] args) {
         StaticTest staticTest = new StaticTest("bbbbb");
         StaticTest.print(staticTest.aa);
-        staticTest.print();
     }
 }
