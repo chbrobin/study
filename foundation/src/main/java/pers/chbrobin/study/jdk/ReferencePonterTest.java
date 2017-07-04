@@ -12,6 +12,8 @@ package pers.chbrobin.study.jdk;
  * 传引用指的是传递java的堆中数据
  * 因为很显然，你不能将int ,long这些基本类型的东西叫做“指针”，
  * 我理解的java的引用，就是安全指针。
+ *
+ * Java里的传值实际上是拷贝引用，而不是拷贝对象
  */
 public class ReferencePonterTest {
     // 初始值为0  
