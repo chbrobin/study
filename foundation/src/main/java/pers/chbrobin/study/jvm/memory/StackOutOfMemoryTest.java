@@ -23,7 +23,11 @@ public class StackOutOfMemoryTest {
     }
 
     public static void main(String[] args) {
-        StackOutOfMemoryTest stackOutOfMemoryTest = new StackOutOfMemoryTest();
-        stackOutOfMemoryTest.stackLeakByThread();
+//        StackOutOfMemoryTest stackOutOfMemoryTest = new StackOutOfMemoryTest();
+//        stackOutOfMemoryTest.stackLeakByThread();
+        long aa[] = new long[100000];
+        for(int i = 0; i < 100000; i ++ ) {
+            aa[i] = i;
+        }
     }
 }
