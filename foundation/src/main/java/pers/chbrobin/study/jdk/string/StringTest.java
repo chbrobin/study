@@ -1,4 +1,4 @@
-package pers.chbrobin.study.jdk;
+package pers.chbrobin.study.jdk.string;
 
 /**
  * Created by Administrator on 2017/6/4 0004.
