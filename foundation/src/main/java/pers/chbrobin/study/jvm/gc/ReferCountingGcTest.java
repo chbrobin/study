@@ -2,6 +2,7 @@ package pers.chbrobin.study.jvm.gc;
 
 /**
  * Created by chenhuibin on 2017/6/24 0024.
+ * JVM_OPTIONS: -verbose:gc
  */
 public class ReferCountingGcTest {
     public Object instance = null;
