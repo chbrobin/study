@@ -1,5 +1,8 @@
 package pers.chbrobin.study.jdk.object;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Created by chenhuibin on 2017/7/11 0011.
  * Object hashCode 默认对象地址
@@ -41,5 +44,15 @@ public class HashCodeTest {
         HashCodeTest hashCodeTest = new HashCodeTest();
         System.out.println(hashCodeTest.hashCode());
         System.out.println(Integer.toHexString(hashCodeTest.hashCode()));
+
+        List<Integer> list = new ArrayList<>();
+        for (int i = 0; i < 100000; i++)
+        {
+            HashCodeTest hashCodeTestTmp = new HashCodeTest();
+            if (!list.contains(hashCodeTestTmp.hashCode())) {
+                list.add(hashCodeTestTmp.hashCode());
+            }
+        }
+        System.out.println(list.size());
     }
 }
