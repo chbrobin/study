@@ -38,7 +38,7 @@ public class StaticMemberClassTest {
 
         s.doMethod1();
 
-        System.out.println("doMethod.");
+        System.out.println("doMethod." + s.toString());
 
     }
 
@@ -49,6 +49,10 @@ public class StaticMemberClassTest {
         StaticMemberClassTest s = new StaticMemberClassTest();
 
         s.doMethod();
+
+        StaticMemberClassTest s2 = new StaticMemberClassTest();
+
+        s2.doMethod();
 
     }
 
