@@ -17,6 +17,7 @@ import java.util.List;
 public class ComparableTest {
     public static void main(String[] args) {
         List<Comparable> comparables = new ArrayList<>();
+        comparables.add(new Character('a'));
         comparables.add(new String());
         comparables.add(new Byte("1"));
         comparables.add(new Integer(1));
