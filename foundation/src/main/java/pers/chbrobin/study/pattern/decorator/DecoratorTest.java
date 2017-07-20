@@ -5,6 +5,11 @@ package pers.chbrobin.study.pattern.decorator;
  */
 public class DecoratorTest {
     public static void main(String[] args) {
+        EggCake eggCake = new EggCake();
+        Cake cake1 = new MilkCake(new FruitCate(eggCake));
+        cake1.fillFood();
 
+        Cake cake2 = new FruitCate(new MilkCake(eggCake));
+        cake2.fillFood();
     }
 }
