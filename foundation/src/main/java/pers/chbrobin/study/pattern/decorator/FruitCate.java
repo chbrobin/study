@@ -15,6 +15,6 @@ public class FruitCate extends Coating {
 
     @Override
     String getRightCircleFood() {
-        return cake.getLeftCircleFood() + "||水果";
+        return cake.getRightCircleFood() + "||水果";
     }
 }

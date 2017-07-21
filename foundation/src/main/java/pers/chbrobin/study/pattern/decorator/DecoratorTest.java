@@ -11,5 +11,8 @@ public class DecoratorTest {
 
         Cake cake2 = new FruitCate(new MilkCake(eggCake));
         cake2.fillFood();
+
+        Cake cake3 = new MilkCake(new FruitCate(new MilkCake(eggCake)));
+        cake3.fillFood();
     }
 }
