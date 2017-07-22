@@ -7,9 +7,9 @@ package pers.chbrobin.study.pattern.adapter;
 public class AdapterTest {
     public static void main(String[] args) {
         JapanElectricalAppliance japanElectricalAppliance = new JapanElectricalAppliance();
-        JapanVoltageAdapter japanVoltageAdapter = new JapanVoltageAdapter(new ChinaVoltage());
-        System.out.println("japanVoltageAdapter export ev " + japanVoltageAdapter.export110V());
-        japanElectricalAppliance.selectVoltage(new JapanVoltageAdapter(new ChinaVoltage()));
+        JapanVoltage japanVoltage = new JapanVoltageAdapter(new ChinaVoltage());
+        System.out.println("japanVoltageAdapter export ev " + japanVoltage.export110V());
+        japanElectricalAppliance.selectVoltage(japanVoltage);
         japanElectricalAppliance.work();
     }
 }

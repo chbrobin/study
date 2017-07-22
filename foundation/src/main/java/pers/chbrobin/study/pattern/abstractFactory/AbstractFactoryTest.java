@@ -5,6 +5,14 @@ package pers.chbrobin.study.pattern.abstractFactory;
  */
 public class AbstractFactoryTest {
     public static void main(String[] args) {
+        AbstractFactory primary = AbstractFactory.createFactory("primary");
+        System.out.println(primary.createExerciseBook());
+        System.out.println(primary.createPen());
 
+        System.out.println("###########################");
+
+        AbstractFactory middle = AbstractFactory.createFactory("middle");
+        System.out.println(middle.createExerciseBook());
+        System.out.println(middle.createPen());
     }
 }

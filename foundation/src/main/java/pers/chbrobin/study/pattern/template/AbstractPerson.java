@@ -16,7 +16,10 @@ public abstract class AbstractPerson {
     
     public abstract void walking();
 
-    public void living() {
+    /**
+     * 为了防止
+     */
+    public final void living() {
         dressing();
         eating();
         lodging();
