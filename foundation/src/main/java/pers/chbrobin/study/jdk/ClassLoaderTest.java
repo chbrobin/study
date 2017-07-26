@@ -11,6 +11,16 @@ import java.net.URL;
  */
 public class ClassLoaderTest {
     public static void main(String[] args) {
+        System.out.println(ClassLoader.getSystemClassLoader());
+
+        ClassLoaderTest classLoaderTest = new ClassLoaderTest();
+        System.out.println(classLoaderTest.getClass().getClassLoader());
+
+        System.out.println(new String("abc").getClass().getClassLoader());
+
+        ClassLoader classLoader = new Integer(1).getClass().getClassLoader();
+        System.out.println(classLoader.getParent());
+
         URL[] urls = sun.misc.Launcher.getBootstrapClassPath().getURLs();
         for (int i = 0; i < urls.length; i++) {
             System.out.println(urls[i].toExternalForm());

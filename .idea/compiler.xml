@@ -34,6 +34,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="foundation" target="1.7" />
+      <module name="scala" target="1.8" />
       <module name="springboot" target="1.5" />
       <module name="study" target="1.5" />
     </bytecodeTargetLevel>

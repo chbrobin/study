@@ -12,6 +12,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/groovy/pom.xml" />
+        <option value="$PROJECT_DIR$/scala/pom.xml" />
       </set>
     </option>
   </component>

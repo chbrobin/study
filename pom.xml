@@ -11,6 +11,7 @@
     <modules>
         <module>foundation</module>
         <module>springboot</module>
+        <module>scala</module>
     </modules>
 
     <dependencies>
