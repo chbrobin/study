@@ -1,0 +1,4 @@
+VirtualBox 图形用户界面版本 5.1.26 r117224 (Qt5.6.2)
+
+centos地址：https://virtualboxes.org/images/centos/
+CentOS 6.6 minimal x86_64

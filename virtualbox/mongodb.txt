@@ -1,0 +1,24 @@
+
+
+
+echo "/usr/mongodb/mongodb-linux-x86_64-1.4.4/bin/mongod --dbpath=/usr/mongodb/mongodb_data/mongodb_db --logpath=/usr/mongodb/mongodb_data/mongodb_logs/mongodb.log --logappend &" >> /etc/rc.local
+
+./mongod --dbpath=/usr/mongodb/mongodb_data/mongodb_db --logpath=/usr/mongodb/mongodb_data/mongodb_logs/mongodb.log --logappend &
+
+db.posts.insert({"post_text": "mongodb 测试数据","user_name": "mark","status":"active"})
+db.posts.insert({"post_text": "mongodb 测试数据","user_name": "mark","status":"active"})
+db.posts.insert({"post_text": "mongodb 测试数据","user_name": "mark","status":"active"})
+db.posts.insert({"post_text": "mongodb 测试数据","user_name": "mark","status":"active"})
+db.posts.insert({"post_text": "mongodb 测试数据","user_name": "mark","status":"disabled"})
+db.posts.insert({"post_text": "mongodb 测试数据","user_name": "runoob","status":"disabled"})
+db.posts.insert({"post_text": "mongodb 测试数据","user_name": "runoob","status":"disabled"})
+db.posts.insert({"post_text": "mongodb 测试数据","user_name": "runoob","status":"active"})
+
+db.posts.mapReduce(
+   function() { emit(this.user_name,1); },
+   function(key, values) {return Array.sum(values)},
+      {
+         query:{status:"active"},
+         out:"post_total"
+      }
+)

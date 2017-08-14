@@ -1,0 +1,13 @@
+命令查询
+http://man.linuxde.net/
+
+修改主机别名 hostname
+/etc/hosts
+/etc/sysconfig/network
+127.0.0.1 centos-vm1
+127.0.0.1 centos-vm2
+10.7.253.92 centos-vm1
+10.7.253.92 centos-vm2
+
+修改IP
+ifconfig eth0 10.7.253.92 netmask 255.255.255.0

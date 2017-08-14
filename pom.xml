@@ -12,6 +12,7 @@
         <module>foundation</module>
         <module>springboot</module>
         <module>scala</module>
+        <module>nosql</module>
     </modules>
 
     <dependencies>
