@@ -11,3 +11,18 @@ http://man.linuxde.net/
 
 修改IP
 ifconfig eth0 10.7.253.92 netmask 255.255.255.0
+
+开启关闭防火墙
+a) 重启后生效
+　　开启： chkconfig iptables on
+　　关闭： chkconfig iptables off
+b) 即时生效，重启后失效
+　　开启： service iptables start
+　　关闭： service iptables stop
+
+开放某端口
+vi /etc/sysconfig/iptables
+-A INPUT -m state --state NEW -m tcp -p tcp --dport 8080 -j ACCEPT
+
+命名别名目录
+alias cdtomcat='cd /usr/tomcat/apache-tomcat-7.0.79'
