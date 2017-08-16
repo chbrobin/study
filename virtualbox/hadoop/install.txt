@@ -7,7 +7,7 @@ core-site.xml
 </property>
 <property>
     <name>fs.default.name</name>
-    <value>hdfs://centos-vm0:9000</value>
+    <value>hdfs://10.7.253.92:9000</value>
 </property>
 
 
@@ -119,3 +119,11 @@ cd /usr/hadoop/hadoop-2.8.1/sbin
 
 http://10.7.253.92:8088/
 自动跳转到了cluster页面
+
+常见命令
+启动Hadoop
+进入HADOOP_HOME目录。
+执行sh bin/start-all.sh
+关闭Hadoop
+进入HADOOP_HOME目录。
+执行sh bin/stop-all.sh

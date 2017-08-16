@@ -31,3 +31,10 @@ vi .bashrc
 alias cdtomcat='cd /usr/tomcat/apache-tomcat-7.0.79'
 或者
 vim /etc/profile 设定 alias 内容
+
+
+文件查找
+find .(当前目录) -name
+find . -name "*.txt" -print
+find . -name '[A-Z,a-z,1-100]*'.txt -print
+find . -name "1.txt" -prune -o -name "*.txt" -print

@@ -1,0 +1,12 @@
+at java.lang.ProcessBuilder.start(ProcessBuilder.java:1012)
+
+一、解决办法：
+1：将文件解压到hadoop的bin目录下
+2：将hadoop.dll复制到C:\Window\System32下
+3：添加环境变量HADOOP_HOME，指向hadoop目录
+4：将%HADOOP_HOME%\bin加入到path里面
+5：重启myeclipse或者eclipse
+
+二、hadoop版本要一致
+
+三、修改NativeIO源码
