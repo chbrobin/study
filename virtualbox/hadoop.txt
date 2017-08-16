@@ -1,0 +1,121 @@
+一、配置文件
+core-site.xml
+<property>
+    <name>hadoop.tmp.dir</name>
+    <value>/root/hadoop/tmp</value>
+    <description>Abase for other temporary directories.</description>
+</property>
+<property>
+    <name>fs.default.name</name>
+    <value>hdfs://centos-vm0:9000</value>
+</property>
+
+
+hadoop-env.sh
+export   JAVA_HOME=/usr/java/jdk1.7.0_80
+
+
+hdfs-site.xml
+<property>
+   <name>dfs.name.dir</name>
+   <value>/root/hadoop/dfs/name</value>
+   <description>Path on the local filesystem where theNameNode stores the namespace and transactions logs persistently.</description>
+</property>
+<property>
+   <name>dfs.data.dir</name>
+   <value>/root/hadoop/dfs/data</value>
+   <description>Comma separated list of paths on the localfilesystem of a DataNode where it should store its blocks.</description>
+</property>
+<property>
+   <name>dfs.replication</name>
+   <value>2</value>
+</property>
+<property>
+      <name>dfs.permissions</name>
+      <value>false</value>
+      <description>need not permissions</description>
+</property>
+
+mapred-site.xml
+<property>
+    <name>mapred.job.tracker</name>
+    <value>centos-vm0:49001</value>
+</property>
+<property>
+    <name>mapred.local.dir</name>
+    <value>/root/hadoop/var</value>
+</property>
+<property>
+    <name>mapreduce.framework.name</name>
+    <value>yarn</value>
+</property>
+
+slaves
+centos-vm1
+centos-vm2
+
+
+yarn-site.xml
+<property>
+    <name>yarn.resourcemanager.hostname</name>
+    <!-- 8088 端口无法访问 应使用外网映射地址 -->
+    <value>10.7.253.92</value>
+</property>
+<property>
+    <description>The address of the applications manager interface in the RM.</description>
+    <name>yarn.resourcemanager.address</name>
+    <value>${yarn.resourcemanager.hostname}:8032</value>
+</property>
+<property>
+    <description>The address of the scheduler interface.</description>
+    <name>yarn.resourcemanager.scheduler.address</name>
+    <value>${yarn.resourcemanager.hostname}:8030</value>
+</property>
+<property>
+    <description>The http address of the RM web application.</description>
+    <name>yarn.resourcemanager.webapp.address</name>
+    <value>${yarn.resourcemanager.hostname}:8088</value>
+</property>
+<property>
+    <description>The https adddress of the RM web application.</description>
+    <name>yarn.resourcemanager.webapp.https.address</name>
+    <value>${yarn.resourcemanager.hostname}:8090</value>
+</property>
+<property>
+    <name>yarn.resourcemanager.resource-tracker.address</name>
+    <value>${yarn.resourcemanager.hostname}:8031</value>
+</property>
+<property>
+    <description>The address of the RM admin interface.</description>
+    <name>yarn.resourcemanager.admin.address</name>
+    <value>${yarn.resourcemanager.hostname}:8033</value>
+</property>
+<property>
+    <name>yarn.nodemanager.aux-services</name>
+    <value>mapreduce_shuffle</value>
+</property>
+<property>
+    <name>yarn.scheduler.maximum-allocation-mb</name>
+    <value>2048</value>
+    <discription>每个节点可用内存,单位MB,默认8182MB</discription>
+</property>
+<property>
+    <name>yarn.nodemanager.vmem-pmem-ratio</name>
+    <value>2.1</value>
+</property>
+<property>
+    <name>yarn.nodemanager.resource.memory-mb</name>
+    <value>2048</value>
+</property>
+<property>
+    <name>yarn.nodemanager.vmem-check-enabled</name>
+    <value>false</value>
+</property>
+
+
+二、运行Hadoop
+cd /usr/hadoop/hadoop-2.8.1/sbin
+./start-all.sh
+
+http://10.7.253.92:8088/
+自动跳转到了cluster页面

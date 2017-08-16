@@ -4,10 +4,12 @@ http://man.linuxde.net/
 修改主机别名 hostname
 /etc/hosts
 /etc/sysconfig/network
+127.0.0.1 centos-vm0
 127.0.0.1 centos-vm1
 127.0.0.1 centos-vm2
-10.7.253.92 centos-vm1
-10.7.253.92 centos-vm2
+10.7.253.92 centos-vm0
+10.7.253.192 centos-vm1
+10.7.253.193 centos-vm2
 
 修改IP
 ifconfig eth0 10.7.253.92 netmask 255.255.255.0
@@ -25,4 +27,7 @@ vi /etc/sysconfig/iptables
 -A INPUT -m state --state NEW -m tcp -p tcp --dport 8080 -j ACCEPT
 
 命名别名目录
+vi .bashrc
 alias cdtomcat='cd /usr/tomcat/apache-tomcat-7.0.79'
+或者
+vim /etc/profile 设定 alias 内容
