@@ -1,0 +1,27 @@
+网上问题答案有许多种，一一归纳：
+1. zoo.cfg配置文件中指定目录却没有创建！ 创建相应目录即可。
+2. zoo.cfg中dataDir指定路径为Myid文件的路径。
+Myid内容与：server.?=localhost:2888:3888 中你所设置？一致！
+3.使用service iptables stop 关闭防火墙
+  使用service iptables status确认
+4. 1,打开zkServer.sh 找到
+status)
+    STAT=`echo stat | nc localhost $(grep clientPort "$ZOOCFG" | sed -e 's/.*=//') 2> /dev/null| grep Mode`
+在nc与localhost之间加上 -q 1 （是数字1而不是字母l）
+如果已存在则去掉
+5.2181端口被占用！        #我就是死在这的，死了很久很久。。
+zkServer.sh stop        #先停止zookeep
+netstat -an | grep 2181 #查看端口是否占用，如果占用
+clientPort = 2888       #随便找个没占用的端口号！
+
+
+
+在配置相关服务zookeeper、hadoop等域名端口时，不要使用域名而要使用ip，否则端口无法开放例如
+以下配置无法访问
+server.1=centos-vm0:2888:3888
+server.2=centos-vm1:2888:3888
+server.3=centos-vm2:2888:3888
+需要改为IP形式
+server.1=10.7.253.92:2888:3888
+server.2=10.7.253.192:2888:3888
+server.3=10.7.253.193:2888:3888

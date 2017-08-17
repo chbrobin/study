@@ -1,0 +1,48 @@
+cd /usr/zookeeper
+mkdir data dataLog
+
+cd /usr/zookeeper/data
+vi myid
+
+vi /usr/zookeeper/zookeeper-3.4.10/conf/zoo.cfg
+# The number ofmilliseconds of each tick
+tickTime=2000
+# The number ofticks that the initial
+#synchronization phase can take
+initLimit=10
+# The number ofticks that can pass between
+# sending arequest and getting an acknowledgement
+syncLimit=5
+# the directorywhere the snapshot is stored.
+# do not use /tmpfor storage, /tmp here is just
+# example sakes.
+dataDir=/tmp/zookeeper
+# the port atwhich the clients will connect
+clientPort=2181
+# the maximumnumber of client connections.
+# increase thisif you need to handle more clients
+#maxClientCnxns=60
+#
+# Be sure toread the maintenance section of the
+# administratorguide before turning on autopurge.
+#
+#http://zookeeper.apache.org/doc/current/zookeeperAdmin.html#sc_maintenance
+#
+# The number ofsnapshots to retain in dataDir
+#autopurge.snapRetainCount=3
+# Purge taskinterval in hours
+# Set to"0" to disable auto purge feature
+#autopurge.purgeInterval=1
+
+dataDir=/usr/zookeeper/data
+dataLogDir=/usr/zookeeper/dataLog
+server.1=10.7.253.92:2888:3888
+server.2=10.7.253.192:2888:3888
+server.3=10.7.253.193:2888:3888
+
+
+cd /usr/zookeeper/zookeeper-3.4.10/bin
+启动
+./zkServer.sh start
+查看状态
+./zkServer.sh status

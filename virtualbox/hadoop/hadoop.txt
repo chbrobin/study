@@ -66,3 +66,5 @@ hadoop dfs –getmerge /user /home/t
 12、将正在运行的hadoop作业kill掉
 
 hadoop job –kill [job-id]
+
+hdfs dfsadmin -report

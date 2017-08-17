@@ -1,0 +1,17 @@
+vi /etc/profile
+export ZK_HOME=/usr/zookeeper/zookeeper-3.4.10
+export HBASE_HOME=/usr/hbase/hbase-0.92.2
+export path=$PATH:/usr/hbase/hbase-0.92.2/bin
+
+
+sh /usr/zookeeper/zookeeper-3.4.10/bin/zkServer.sh start
+sh /usr/hadoop/hadoop-2.8.1/sbin/start-all.sh
+sh /usr/hbase/hbase-2.8.1/
+sh /usr/hbase/hbase-1.3.1/bin/start-hbase.sh
+
+
+
+create 'hbase_1102',  {NAME=>'cf1'}, {NAME=>'cf2'}
+
+
+

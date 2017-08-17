@@ -1,0 +1,27 @@
+1、Unable to load native-hadoop library for your platform
+vi /etc/profile
+vi /usr/hbase/hbase-1.3.1/conf/hbase-env.sh
+export HADOOP_COMMON_LIB_NATIVE_DIR=$HADOOP_HOME/lib/native
+export HADOOP_HOME=/usr/hadoop/hadoop-2.8.1
+export HADOOP_OPTS="-Djava.library.path=$HADOOP_HOME/lib:$HADOOP_COMMON_LIB_NATIVE_DIR"
+
+2、Can't get master address from ZooKeeper; znode data == null
+
+
+
+
+ERROR: org.apache.hadoop.hbase.PleaseHoldException: Master is initializing
+	at org.apache.hadoop.hbase.master.HMaster.checkInitialized(HMaster.java:2452)
+	at org.apache.hadoop.hbase.master.MasterRpcServices.getTableNames(MasterRpcServices.java:915)
+	at org.apache.hadoop.hbase.protobuf.generated.MasterProtos$MasterService$2.callBlockingMethod(MasterProtos.java:58517)
+	at org.apache.hadoop.hbase.ipc.RpcServer.call(RpcServer.java:2339)
+	at org.apache.hadoop.hbase.ipc.CallRunner.run(CallRunner.java:123)
+	at org.apache.hadoop.hbase.ipc.RpcExecutor$Handler.run(RpcExecutor.java:188)
+	at org.apache.hadoop.hbase.ipc.RpcExecutor$Handler.run(RpcExecutor.java:168)
+
+regionservers 缺少 master centos-vm0
+centos-vm0
+centos-vm1
+centos-vm2
+
+

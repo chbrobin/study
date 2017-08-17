@@ -10,3 +10,8 @@ at java.lang.ProcessBuilder.start(ProcessBuilder.java:1012)
 二、hadoop版本要一致
 
 三、修改NativeIO源码
+
+
+四、hdfs://master:9000/访问异常
+hadoop namenode -format
+清除 dsf目录下所有内容

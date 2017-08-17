@@ -19,12 +19,13 @@ import org.apache.hadoop.util.Progressable;
  */
 public class HdfsTest {
     public static void main(String[] args) throws Exception {
-//         mkDir();
+         mkDir();
 //         delDir();
-        // delFile();
+//         delFile();
 //        upload();
 //        upload2();
-        upload("/user/word.txt", "D:\\word.txt");
+//        upload("/hbase/word.txt", "D:\\word.txt");
+
     }
 
     /**
@@ -32,7 +33,7 @@ public class HdfsTest {
      */
     private static void mkDir() throws Exception {
         FileSystem fs = FileSystem.get(new URI("hdfs://10.7.253.92:9000"), new Configuration());
-        fs.mkdirs(new Path("/user"));
+        fs.mkdirs(new Path("/hbase"));
         fs.close();
     }
 

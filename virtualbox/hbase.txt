@@ -1,3 +1,0 @@
-vi /etc/profile
-export HBASE_HOME=/usr/hbase/hbase-0.92.2
-export path=$PATH:/usr/hbase/hbase-0.92.2/bin
