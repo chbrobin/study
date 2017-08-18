@@ -3,13 +3,13 @@ http://man.linuxde.net/
 
 修改主机别名 hostname
 /etc/hosts
-/etc/sysconfig/network
-127.0.0.1 centos-vm0
-127.0.0.1 centos-vm1
-127.0.0.1 centos-vm2
+127.0.0.1 localhost
 10.7.253.92 centos-vm0
 10.7.253.192 centos-vm1
 10.7.253.193 centos-vm2
+
+/etc/sysconfig/network
+
 
 修改IP
 ifconfig eth0 10.7.253.92 netmask 255.255.255.0
@@ -38,3 +38,18 @@ find .(当前目录) -name
 find . -name "*.txt" -print
 find . -name '[A-Z,a-z,1-100]*'.txt -print
 find . -name "1.txt" -prune -o -name "*.txt" -print
+
+
+
+（对于 freeswitch）
+
+运行命令：
+
+1、首先运行ntpdate ntp1.aliyun.com
+可更新当前服务器的时间；
+2、还要运行hwclock --systohc
+修改服务器映射到我们系统的时间，ok；
+
+ifconfig eth0 10.7.253.92 netmask 255.255.255.0
+ntpdate ntp1.aliyun.com
+hwclock --systohc

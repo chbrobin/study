@@ -25,3 +25,6 @@ centos-vm1
 centos-vm2
 
 
+从节点jps时，看不到HRegionServer，且status时，显示只有一个servers：1 servers。即从节点的hbase没有启动起来。
+
+

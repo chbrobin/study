@@ -19,12 +19,12 @@ import org.apache.hadoop.util.Progressable;
  */
 public class HdfsTest {
     public static void main(String[] args) throws Exception {
-         mkDir();
+//         mkDir();
 //         delDir();
 //         delFile();
 //        upload();
 //        upload2();
-//        upload("/hbase/word.txt", "D:\\word.txt");
+        upload("/hbase/word.txt", "D:\\word.txt");
 
     }
 
