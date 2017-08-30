@@ -1,3 +1,9 @@
+客户端
 /bin/bash /usr/share/software/log-collect/log-collect-0.0.1-SNAPSHOT/bin/locktail_rotate.sh /usr/share/software/apache-tomcat-7.0.54/logs/localhost_access_log.DATE_ROTATE.txt +%Y-%m-%d
 
 java -Xmx128M -Xms64M -XX:NewRatio=4 -XX:SurvivorRatio=4 -XX:PermSize=64m -XX:MaxPermSize=128m -Dflume.monitoring.type=http -Dflume.monitoring.port=2501 -cp /usr/share/software/log-collect/log-collect-0.0.1-SNAPSHOT/conf:/usr/share/software/log-collect/log-collect-0.0.1-SNAPSHOT/lib/*:/lib/* -Djava.library.path= org.apache.flume.node.Application -n agent -f /usr/share/software/log-collect/log-collect-0.0.1-SNAPSHOT/conf/kafka.properties
+
+
+服务端
+1、kafka server
+2、monitor server
