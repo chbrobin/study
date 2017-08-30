@@ -13,4 +13,5 @@ sh /usr/hbase/hbase-1.3.1/bin/start-hbase.sh
 create 'hbase_1102',  {NAME=>'cf1'}, {NAME=>'cf2'}
 
 
-
+导入数据
+$ bin/hbase org.apache.hadoop.hbase.mapreduce.ImportTsv -Dimporttsv.columns=a,b,c <tablename> <hdfs-inputdir>

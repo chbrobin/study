@@ -7,9 +7,6 @@ export HADOOP_OPTS="-Djava.library.path=$HADOOP_HOME/lib:$HADOOP_COMMON_LIB_NATI
 
 2、Can't get master address from ZooKeeper; znode data == null
 
-
-
-
 ERROR: org.apache.hadoop.hbase.PleaseHoldException: Master is initializing
 	at org.apache.hadoop.hbase.master.HMaster.checkInitialized(HMaster.java:2452)
 	at org.apache.hadoop.hbase.master.MasterRpcServices.getTableNames(MasterRpcServices.java:915)

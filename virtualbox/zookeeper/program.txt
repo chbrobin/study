@@ -13,15 +13,3 @@ status)
 zkServer.sh stop        #先停止zookeep
 netstat -an | grep 2181 #查看端口是否占用，如果占用
 clientPort = 2888       #随便找个没占用的端口号！
-
-
-
-在配置相关服务zookeeper、hadoop等域名端口时，不要使用域名而要使用ip，否则端口无法开放例如
-以下配置无法访问
-server.1=centos-vm0:2888:3888
-server.2=centos-vm1:2888:3888
-server.3=centos-vm2:2888:3888
-需要改为IP形式
-server.1=10.7.253.92:2888:3888
-server.2=10.7.253.192:2888:3888
-server.3=10.7.253.193:2888:3888

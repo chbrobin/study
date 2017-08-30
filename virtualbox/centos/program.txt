@@ -1,0 +1,6 @@
+/etc/hosts
+127.0.0.1 localhost centos-vm0
+
+这种配置会出现解析问题，需要修改为以下形式
+127.0.0.1 localhost
+10.7.253.92 centos-vm0

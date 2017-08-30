@@ -15,3 +15,6 @@ at java.lang.ProcessBuilder.start(ProcessBuilder.java:1012)
 四、hdfs://master:9000/访问异常
 hadoop namenode -format
 清除 dsf目录下所有内容
+
+yarn-site.xml
+默认配置memory都比较大，虚拟机默认配置最好配置2G以上

@@ -1,14 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b195f70d-d9f0-4678-a09f-4d99007d3cd8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtualbox/ntp.txt" />
+    <list default="true" id="b195f70d-d9f0-4678-a09f-4d99007d3cd8" name="Default" comment="nosql code update">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_stephenc_findbugs_findbugs_annotations_1_3_9_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_lmax_disruptor_3_3_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_yammer_metrics_metrics_core_2_2_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_el_commons_el_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math_2_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_client_2_5_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_app_2_5_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_annotations_1_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_client_1_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_common_1_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_common_tests_1_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_hadoop2_compat_1_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_hadoop_compat_1_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_it_1_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_prefix_tree_1_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_procedure_1_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_protocol_1_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_server_1_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hbase_hbase_shell_1_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jamon_jamon_runtime_2_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_netty_netty_3_2_4_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jruby_jcodings_jcodings_1_0_8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jruby_joni_joni_2_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jruby_jruby_complete_1_6_8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jetty_sslengine_6_1_26.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jsp_2_1_6_1_14.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jsp_api_2_1_6_1_14.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_servlet_api_2_5_6_1_14.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tomcat_jasper_compiler_5_5_23.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tomcat_jasper_runtime_5_5_23.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nosql/src/main/java/pers/chbrobin/nosql/hadoop/IntSumReducer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nosql/src/main/java/pers/chbrobin/nosql/hadoop/TokenizerMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nosql/src/main/java/pers/chbrobin/nosql/hadoop/WordCount.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nosql/src/main/java/pers/chbrobin/nosql/hbase/Test.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtualbox/centos/sshlogin.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtualbox/monitor/install.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/virtualbox/solr/install.txt" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/virtualbox/hadoop/env.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nosql/nosql.iml" afterPath="$PROJECT_DIR$/nosql/nosql.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nosql/pom.xml" afterPath="$PROJECT_DIR$/nosql/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nosql/src/main/java/pers/chbrobin/nosql/hadoop/HdfsTest.java" afterPath="$PROJECT_DIR$/nosql/src/main/java/pers/chbrobin/nosql/hadoop/HdfsTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/virtualbox/centos.txt" afterPath="$PROJECT_DIR$/virtualbox/centos.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/virtualbox/hbase/hbase.txt" afterPath="$PROJECT_DIR$/virtualbox/hbase/hbase.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot/pom.xml" afterPath="$PROJECT_DIR$/springboot/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/virtualbox/hadoop/program.txt" afterPath="$PROJECT_DIR$/virtualbox/hadoop/program.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/virtualbox/hbase/program.txt" afterPath="$PROJECT_DIR$/virtualbox/hbase/program.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/virtualbox/install.txt" afterPath="$PROJECT_DIR$/virtualbox/install.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/virtualbox/jdk.txt" afterPath="$PROJECT_DIR$/virtualbox/jdk.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/virtualbox/zookeeper/program.txt" afterPath="$PROJECT_DIR$/virtualbox/zookeeper/program.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/virtualbox/centos.txt" afterPath="$PROJECT_DIR$/virtualbox/centos/command.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/virtualbox/hadoop/hadoop.txt" afterPath="$PROJECT_DIR$/virtualbox/hadoop/command.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/virtualbox/hbase/hbase.txt" afterPath="$PROJECT_DIR$/virtualbox/hbase/install.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/virtualbox/mongodb.txt" afterPath="$PROJECT_DIR$/virtualbox/mongodb/mongodb.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/virtualbox/ntp.txt" afterPath="$PROJECT_DIR$/virtualbox/centos/program.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/virtualbox/redis.txt" afterPath="$PROJECT_DIR$/virtualbox/redis/redis.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/virtualbox/zookeeper/zookeeper.txt" afterPath="$PROJECT_DIR$/virtualbox/zookeeper/install.txt" />
     </list>
     <list id="eda04ae5-a86f-4650-8752-0ec3dfc87610" name="New changelist" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_3_2_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_3_2_5.xml" />
@@ -85,64 +134,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="install.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/virtualbox/install.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="centos.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/virtualbox/centos.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1828877">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ntp.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/virtualbox/ntp.txt">
+      <file leaf-file-name="install.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/virtualbox/monitor/install.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hbase.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/virtualbox/hbase/hbase.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HMaster.class" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa0.402/org/apache/hadoop/hbase/master/HMaster.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.6333333">
-              <caret line="111" column="61" selection-start-line="126" selection-start-column="73" selection-end-line="126" selection-end-column="87" />
-              <folding>
-                <element signature="e#73940#73941#0" expanded="true" />
-                <element signature="e#73989#73990#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MasterRpcServices.class" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa0.621/org/apache/hadoop/hbase/master/MasterRpcServices.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.9">
-              <caret line="641" column="0" selection-start-line="632" selection-start-column="63" selection-end-line="641" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -169,19 +165,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/foundation/src/main/java/pers/chbrobin/study/jvm/gc/ReferCountingGcTest.java" />
-        <option value="$PROJECT_DIR$/foundation/src/main/java/pers/chbrobin/study/aop/Service.java" />
-        <option value="$PROJECT_DIR$/foundation/src/main/java/pers/chbrobin/study/aop/AService.java" />
-        <option value="$PROJECT_DIR$/foundation/src/main/java/pers/chbrobin/study/aop/InvocationHandler.java" />
-        <option value="$PROJECT_DIR$/foundation/src/main/java/pers/chbrobin/study/aop/MyInvocationHandler.java" />
-        <option value="$PROJECT_DIR$/foundation/src/main/java/pers/chbrobin/study/aop/AopTest.java" />
-        <option value="$PROJECT_DIR$/foundation/src/main/java/pers/chbrobin/study/jdk/proxy/MyInvocationHandler.java" />
-        <option value="$PROJECT_DIR$/foundation/src/main/java/pers/chbrobin/study/jdk/object/ObjectTest.java" />
-        <option value="$PROJECT_DIR$/foundation/src/main/java/pers/chbrobin/study/jdk/object/HashCodeTest.java" />
-        <option value="$PROJECT_DIR$/foundation/src/main/java/pers/chbrobin/study/jdk/innerclass/StaticMemberClassTest.java" />
-        <option value="$PROJECT_DIR$/foundation/src/main/java/StaticTest.java" />
-        <option value="$PROJECT_DIR$/foundation/src/main/java/pers/chbrobin/study/pattern/decorator/DecoratorTest.java" />
-        <option value="$PROJECT_DIR$/foundation/src/main/java/pers/chbrobin/study/pattern/decorator/FruitCate.java" />
         <option value="$PROJECT_DIR$/foundation/src/main/java/pers/chbrobin/study/jdk/ClassLoaderTest.java" />
         <option value="$PROJECT_DIR$/foundation/src/main/java/pers/chbrobin/study/pattern/command/stock/Order.java" />
         <option value="$PROJECT_DIR$/foundation/src/main/java/pers/chbrobin/study/pattern/command/stock/BuyStock.java" />
@@ -201,25 +184,38 @@
         <option value="$PROJECT_DIR$/virtualbox/redis.txt" />
         <option value="$PROJECT_DIR$/nosql/src/main/java/pers/chbrobin/nosql/mongdb/MongodbJdbc.java" />
         <option value="$PROJECT_DIR$/virtualbox/hbase.txt" />
-        <option value="$PROJECT_DIR$/virtualbox/jdk.txt" />
         <option value="$PROJECT_DIR$/nosql/src/main/java/pers/chbrobin/nosql/hadoop/DemoTest.java" />
-        <option value="$PROJECT_DIR$/nosql/pom.xml" />
         <option value="$PROJECT_DIR$/nosql/src/main/java/org/apache/hadoop/io/nativeio/NativeIO.java" />
         <option value="$PROJECT_DIR$/virtualbox/hadoop_qa.txt" />
         <option value="$PROJECT_DIR$/virtualbox/hadoop/install.txt" />
         <option value="$PROJECT_DIR$/virtualbox/hadoop.txt" />
         <option value="$PROJECT_DIR$/nosql/src/main/java/pers/chbrobin/nosql/hadoop/MapReduceTest.java" />
-        <option value="$PROJECT_DIR$/virtualbox/hadoop/env.txt" />
         <option value="$PROJECT_DIR$/virtualbox/zookeeper.txt" />
         <option value="$PROJECT_DIR$/virtualbox/zookeeper/zookeeper.txt" />
-        <option value="$PROJECT_DIR$/virtualbox/zookeeper/program.txt" />
         <option value="$PROJECT_DIR$/virtualbox/hadoop/hadoop.txt" />
-        <option value="$PROJECT_DIR$/virtualbox/hadoop/program.txt" />
-        <option value="$PROJECT_DIR$/virtualbox/hbase/hbase.txt" />
-        <option value="$PROJECT_DIR$/nosql/src/main/java/pers/chbrobin/nosql/hadoop/HdfsTest.java" />
-        <option value="$PROJECT_DIR$/virtualbox/hbase/program.txt" />
         <option value="$PROJECT_DIR$/virtualbox/install.txt" />
         <option value="$PROJECT_DIR$/virtualbox/centos.txt" />
+        <option value="$PROJECT_DIR$/virtualbox/hadoop/env.txt" />
+        <option value="$PROJECT_DIR$/virtualbox/centos/sshlogin.txt" />
+        <option value="$PROJECT_DIR$/virtualbox/solr/install.txt" />
+        <option value="$PROJECT_DIR$/virtualbox/hbase/hbase.txt" />
+        <option value="$PROJECT_DIR$/nosql/pom.xml" />
+        <option value="$PROJECT_DIR$/nosql/src/main/java/pers/chbrobin/nosql/hbase/Test.java" />
+        <option value="$PROJECT_DIR$/nosql/src/main/java/pers/chbrobin/nosql/hadoop/HdfsTest.java" />
+        <option value="$PROJECT_DIR$/nosql/src/main/java/pers/chbrobin/nosql/hadoop/T.java" />
+        <option value="$PROJECT_DIR$/nosql/src/main/java/pers/chbrobin/nosql/hadoop/TokenizerMapper.java" />
+        <option value="$PROJECT_DIR$/nosql/src/main/java/pers/chbrobin/nosql/hadoop/IntSumReducer.java" />
+        <option value="$PROJECT_DIR$/nosql/src/main/java/pers/chbrobin/nosql/hadoop/WordCount.java" />
+        <option value="$PROJECT_DIR$/springboot/pom.xml" />
+        <option value="$PROJECT_DIR$/virtualbox/jdk.txt" />
+        <option value="$PROJECT_DIR$/virtualbox/centos/centos.txt" />
+        <option value="$PROJECT_DIR$/virtualbox/centos/program.txt" />
+        <option value="$PROJECT_DIR$/virtualbox/centos/command.txt" />
+        <option value="$PROJECT_DIR$/virtualbox/hadoop/program.txt" />
+        <option value="$PROJECT_DIR$/virtualbox/hbase/program.txt" />
+        <option value="$PROJECT_DIR$/virtualbox/zookeeper/install.txt" />
+        <option value="$PROJECT_DIR$/virtualbox/zookeeper/program.txt" />
+        <option value="$PROJECT_DIR$/virtualbox/monitor/install.txt" />
       </list>
     </option>
   </component>
@@ -267,6 +263,30 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
         </PATH_ELEMENT>
       </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="nosql" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="nosql" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
@@ -300,9 +320,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -349,7 +368,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="hbase" />
+              <option name="myItemId" value="monitor" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -434,44 +453,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="nosql" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="redis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="study" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="study" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nosql" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nosql" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mongdb" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -541,6 +522,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -567,22 +549,18 @@
     <property name="SearchEverywhereHistoryKey" value="jdbc&#9;FILE&#9;file://H:/java/workspace/idea/study/nosql/src/main/java/pers/chbrobin/nosql/mongdb/Jdbc.java" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\java\workspace\idea\study\virtualbox\centos" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\java\workspace\idea\study\virtualbox\redis" />
+      <recent name="H:\java\workspace\idea\study\virtualbox\mongodb" />
+      <recent name="H:\java\workspace\idea\study\virtualbox\centos" />
       <recent name="H:\java\workspace\idea\study\virtualbox\hbase" />
       <recent name="H:\java\workspace\idea\study\virtualbox\zookeeper" />
-      <recent name="H:\java\workspace\idea\study\virtualbox\hadoop" />
     </key>
   </component>
   <component name="RunManager" selected="Application.HdfsTest">
-    <configuration default="false" name="HelloWorld" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
-      <module name="groovy" />
-      <setting name="path" value="file://$PROJECT_DIR$/groovy/src/HelloWorld.groovy" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="file://$PROJECT_DIR$/groovy/src" />
-      <setting name="debug" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="RedisClientTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -651,6 +629,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="pers.chbrobin.nosql.hadoop.MapReduceTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="nosql" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="pers.chbrobin.nosql.hbase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="pers.chbrobin.nosql.hbase.Test" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -948,19 +946,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Groovy.HelloWorld" />
-      <item index="1" class="java.lang.String" itemvalue="Application.RedisClientTest" />
-      <item index="2" class="java.lang.String" itemvalue="Application.MongodbJdbc" />
-      <item index="3" class="java.lang.String" itemvalue="Application.HdfsTest" />
-      <item index="4" class="java.lang.String" itemvalue="Application.MapReduceTest" />
+      <item index="0" class="java.lang.String" itemvalue="Application.RedisClientTest" />
+      <item index="1" class="java.lang.String" itemvalue="Application.MongodbJdbc" />
+      <item index="2" class="java.lang.String" itemvalue="Application.HdfsTest" />
+      <item index="3" class="java.lang.String" itemvalue="Application.MapReduceTest" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Test" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Application.HdfsTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.MapReduceTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.RedisClientTest" />
-        <item index="3" class="java.lang.String" itemvalue="Application.MongodbJdbc" />
-        <item index="4" class="java.lang.String" itemvalue="Groovy.HelloWorld" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Test" />
+        <item index="2" class="java.lang.String" itemvalue="Application.MapReduceTest" />
+        <item index="3" class="java.lang.String" itemvalue="Application.RedisClientTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.MongodbJdbc" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
@@ -986,34 +984,34 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
+    <frame x="54" y="-8" width="1874" height="1096" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40767634" sideWeight="0.49779493" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32883817" sideWeight="0.49779493" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21940464" sideWeight="0.4874214" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19128996" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3973029" sideWeight="0.49558985" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34543568" sideWeight="0.553473" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32676348" sideWeight="0.49779493" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32883817" sideWeight="0.49779493" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25027564" sideWeight="0.4874214" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19128996" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34543568" sideWeight="0.446527" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32883817" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3973029" sideWeight="0.49558985" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32676348" sideWeight="0.4845645" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3368597" sideWeight="0.5125786" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34543568" sideWeight="0.446527" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24972437" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1031,7 +1029,8 @@
     <MESSAGE value="groovy &amp; scala script code" />
     <MESSAGE value="nosql code update" />
     <MESSAGE value="virtualbox commend update" />
-    <option name="LAST_COMMIT_MESSAGE" value="virtualbox commend update" />
+    <MESSAGE value="hbase 安装总结" />
+    <option name="LAST_COMMIT_MESSAGE" value="hbase 安装总结" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1064,45 +1063,11 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/foundation/src/main/java/pers/chbrobin/study/pattern/command/stock/SellStock.java">
+    <entry file="file://$PROJECT_DIR$/virtualbox/hbase/program.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foundation/src/main/java/pers/chbrobin/study/pattern/command/stock/Broker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foundation/src/main/java/pers/chbrobin/study/pattern/command/stock/Stock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foundation/src/main/java/pers/chbrobin/study/pattern/command/stock/StockTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foundation/src/main/java/pers/chbrobin/study/pattern/command/base/Receiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foundation/src/main/java/pers/chbrobin/study/pattern/command/stock/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1176,20 +1141,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot/src/main/java/pers/chbrobin/springboot/web/HelloWorldController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28405315">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.62891984">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.m2/repository/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/Jedis.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="8.606272">
@@ -1251,15 +1202,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nosql/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.040069688">
-          <caret line="36" column="48" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1267,13 +1209,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.821429">
           <caret line="294" column="18" selection-start-line="294" selection-start-column="18" selection-end-line="294" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nosql/src/main/java/org/apache/hadoop/io/nativeio/NativeIO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33222592">
-          <caret line="294" column="23" selection-start-line="294" selection-start-column="23" selection-end-line="294" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -1291,34 +1226,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/virtualbox/zookeeper/zookeeper.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/virtualbox/zookeeper/program.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.820598">
-          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/virtualbox/jdk.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="31" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/virtualbox/hadoop/program.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.410299">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nosql/src/main/java/pers/chbrobin/nosql/hadoop/MapReduceTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1326,46 +1233,138 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nosql/src/main/java/pers/chbrobin/nosql/hadoop/HdfsTest.java">
+    <entry file="file://$PROJECT_DIR$/nosql/src/main/java/pers/chbrobin/nosql/hbase/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20598006">
-          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="10" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/virtualbox/hbase/program.txt">
+    <entry file="file://$PROJECT_DIR$/nosql/src/main/java/pers/chbrobin/nosql/hadoop/TokenizerMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5486631">
-          <caret line="27" column="75" selection-start-line="27" selection-start-column="75" selection-end-line="27" selection-end-column="75" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nosql/src/main/java/pers/chbrobin/nosql/hadoop/IntSumReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nosql/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.392858">
+          <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nosql/src/main/java/pers/chbrobin/nosql/hadoop/WordCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="0" selection-start-line="0" selection-start-column="34" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot/src/main/java/pers/chbrobin/springboot/service/HelloWorldService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.142246">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot/src/main/java/pers/chbrobin/springboot/web/HelloWorldController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1828877">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.821428">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/virtualbox/centos/sshlogin.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/virtualbox/centos/command.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/virtualbox/centos/program.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/virtualbox/hadoop/program.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38609627">
+          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/virtualbox/hadoop/command.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/virtualbox/hadoop/install.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8331551">
-          <caret line="41" column="27" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.8780749">
+          <caret line="128" column="20" selection-start-line="128" selection-start-column="20" selection-end-line="128" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/virtualbox/hadoop/env.txt">
+    <entry file="file://$PROJECT_DIR$/virtualbox/hbase/install.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.020320855">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="15" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/virtualbox/hadoop/hadoop.txt">
+    <entry file="file://$PROJECT_DIR$/virtualbox/hbase/program.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.4021391">
-          <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.16256684">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/virtualbox/redis.txt">
+    <entry file="file://$PROJECT_DIR$/virtualbox/mongodb/mongodb.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4673797">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/virtualbox/redis/redis.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.04064171">
           <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
@@ -1373,56 +1372,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/virtualbox/mongodb.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.284492">
-          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/virtualbox/ntp.txt">
+    <entry file="file://$PROJECT_DIR$/virtualbox/solr/install.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa0.035/org/apache/hadoop/hbase/master/HMaster.class">
+    <entry file="file://$PROJECT_DIR$/virtualbox/zookeeper/install.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3325967">
-          <caret line="189" column="33" selection-start-line="189" selection-start-column="33" selection-end-line="189" selection-end-column="33" />
-          <folding>
-            <element signature="e#73940#73941#0" expanded="true" />
-            <element signature="e#73989#73990#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa0.402/org/apache/hadoop/hbase/master/HMaster.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.6333333">
-          <caret line="111" column="61" selection-start-line="126" selection-start-column="73" selection-end-line="126" selection-end-column="87" />
-          <folding>
-            <element signature="e#73940#73941#0" expanded="true" />
-            <element signature="e#73989#73990#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa0.621/org/apache/hadoop/hbase/master/MasterRpcServices.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.9">
-          <caret line="641" column="0" selection-start-line="632" selection-start-column="63" selection-end-line="641" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.7764706">
+          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/virtualbox/hbase/hbase.txt">
+    <entry file="file://$PROJECT_DIR$/virtualbox/zookeeper/program.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="54" />
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
           <folding />
         </state>
       </provider>
@@ -1430,15 +1399,39 @@
     <entry file="file://$PROJECT_DIR$/virtualbox/install.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+          <caret line="0" column="44" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/virtualbox/centos.txt">
+    <entry file="file://$PROJECT_DIR$/virtualbox/jdk.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1828877">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nosql/src/main/java/org/apache/hadoop/io/nativeio/NativeIO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="294" column="23" selection-start-line="294" selection-start-column="23" selection-end-line="294" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nosql/src/main/java/pers/chbrobin/nosql/hadoop/HdfsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="55" column="51" selection-start-line="55" selection-start-column="51" selection-end-line="55" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/virtualbox/monitor/install.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

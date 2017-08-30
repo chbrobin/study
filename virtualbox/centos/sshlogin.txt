@@ -1,0 +1,31 @@
+配置SSH免密码通信
+
+[root@centos-vm0~]# su hadoop          //切换到hadoop用户下
+[hadoop@centos-vm0root]$ cd           //切换到hadoop用户目录
+[hadoop@centos-vm0~]$ mkdir .ssh
+[hadoop@centos-vm0~]$ ssh-keygen -t rsa                 //执行命令一路回车，生成秘钥
+[hadoop@centos-vm0~]$cd .ssh
+[hadoop@centos-vm0.ssh]$ ls
+id_rsa  id_rsa.pub
+[hadoop@centos-vm0.ssh]$ cat id_ras.pub >> authorized_keys               //将公钥保存到authorized_keys认证文件中
+[hadoop@centos-vm0.ssh]$ ls
+authorized_keys  id_rsa  id_rsa.pub
+[hadoop@centos-vm0.ssh]$ cd ..
+[hadoop@centos-vm0~]$ chmod 700 .ssh
+[hadoop@centos-vm0~]$ chmod 600 .ssh/*
+[hadoop@centos-vm0~]$ ssh centos-vm0              //第一次执行需要输入yes
+[hadoop@centos-vm0~]$ ssh centos-vm0
+
+每个节点都同样的操作
+将所有节点中的共钥id_ras.pub拷贝到Master1中的authorized_keys文件中。
+cat ~/.ssh/id_rsa.pub | ssh hadoop@Master1 "cat >> ~/.ssh/authorized_keys"  所有节点都需要执行这条命令
+然后将Master1中的authorized_keys文件分发到所有节点上面。
+
+scp -r authorized_keys hadoop@centos-vm0:~/.ssh/
+
+scp -r authorized_keys hadoop@centos-vm1:~/.ssh/
+
+scp -r authorized_keys hadoop@centos-vm2:~/.ssh/
+
+scp -r authorized_keys hadoop@centos-vm3:~/.ssh/
+大家通过ssh 相互访问，如果都能无密码访问，代表ssh配置成功

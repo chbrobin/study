@@ -24,7 +24,7 @@ public class HdfsTest {
 //         delFile();
 //        upload();
 //        upload2();
-        upload("/hbase/word.txt", "D:\\word.txt");
+        upload("/tmp/test.ova", "H:\\soft\\virtualbox\\CentOS-6.6-x86_64-minimal-2.ova");
 
     }
 
@@ -33,7 +33,7 @@ public class HdfsTest {
      */
     private static void mkDir() throws Exception {
         FileSystem fs = FileSystem.get(new URI("hdfs://10.7.253.92:9000"), new Configuration());
-        fs.mkdirs(new Path("/hbase"));
+        fs.mkdirs(new Path("/hbase/test"));
         fs.close();
     }
 
