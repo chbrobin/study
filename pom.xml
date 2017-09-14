@@ -13,6 +13,7 @@
         <module>springboot</module>
         <module>scala</module>
         <module>nosql</module>
+        <module>netty</module>
     </modules>
 
     <dependencies>

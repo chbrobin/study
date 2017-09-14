@@ -22,6 +22,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="netty" />
         <module name="nosql" />
         <module name="springboot" />
       </profile>
@@ -35,6 +36,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="foundation" target="1.7" />
+      <module name="netty" target="1.5" />
       <module name="nosql" target="1.5" />
       <module name="scala" target="1.8" />
       <module name="springboot" target="1.5" />

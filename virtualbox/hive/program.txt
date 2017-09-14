@@ -1,0 +1,14 @@
+1、Unable to instantiate org.apache.hadoop.hive.metastore.HiveMetaStoreClient
+<property>
+  <name>hive.metastore.schema.verification</name>
+  <value>false</value> <!-- 将默认值true改为false
+</property>
+
+2、Caused by: MetaException(message:Version information not found in metastore. )
+修改conf/hive-site.xml 中的 “hive.metastore.schema.verification”  值为 false
+
+2、datanucleus.schema.autoCreateTables enable
+  <property>
+    <name>datanucleus.schema.autoCreateTables</name>
+    <value>true</value>
+  </property>
