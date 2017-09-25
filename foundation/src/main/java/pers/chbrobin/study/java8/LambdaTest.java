@@ -2,6 +2,7 @@ package pers.chbrobin.study.java8;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.function.Consumer;
 
 /**
  * Created by Administrator on 2017/6/14 0014.
@@ -18,15 +19,15 @@ public class LambdaTest {
             System.out.println(name);
         }
 
-//        friends.forEach(new Consumer<String>() {
-//            public void accept(final String name) {
-//                System.out.println(name);
-//            }
-//        });
-//        friends.forEach((final String name) -> System.out.println(name));
+        friends.forEach(new Consumer<String>() {
+            public void accept(final String name) {
+                System.out.println(name);
+            }
+        });
+        friends.forEach((final String name) -> System.out.println(name));
 //
-//        new Thread(() -> {
-//            System.out.println("test starting ....");
-//        }).start();
+        new Thread(() -> {
+            System.out.println("test starting ....");
+        }).start();
     }
 }

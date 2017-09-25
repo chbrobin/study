@@ -36,9 +36,10 @@ clientPort=2181
 
 dataDir=/usr/zookeeper/data
 dataLogDir=/usr/zookeeper/dataLog
-server.1=10.7.253.92:2888:3888
-server.2=10.7.253.192:2888:3888
-server.3=10.7.253.193:2888:3888
+server.1=centos-vm0:2888:3888
+server.2=centos-vm1:2888:3888
+server.3=centos-vm2:2888:3888
+server.4=centos-vm3:2888:3888
 
 ## 全部启动后再查看状态
 cd /usr/zookeeper/zookeeper-3.4.10/bin

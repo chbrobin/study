@@ -24,6 +24,7 @@
         <processorPath useClasspath="true" />
         <module name="netty" />
         <module name="nosql" />
+        <module name="spark" />
         <module name="springboot" />
       </profile>
       <profile default="false" name="Annotation profile for foundation" enabled="true">
@@ -39,6 +40,7 @@
       <module name="netty" target="1.5" />
       <module name="nosql" target="1.5" />
       <module name="scala" target="1.8" />
+      <module name="spark" target="1.8" />
       <module name="springboot" target="1.5" />
       <module name="study" target="1.5" />
     </bytecodeTargetLevel>
