@@ -5,12 +5,26 @@ cd /usr/solr/
 tar -zxvf solr-6.6.0.tgz
 
 3、分别启动多组solr
-cd /usr/solr/solr-6.6.0/bin
-./solr start -c -z centos-vm0:2181,centos-vm1:2181,centos-vm2:2181,centos-vm3:2181
+cdsolr
+bin/solr start -c -z centos-vm0:2181,centos-vm1:2181,centos-vm2:2181,centos-vm3:2181
 
 4、solr管理
 依次启动集群中所有节点，之后登陆任意节点的solr管理控制台：
 http://centos-vm0:8983/solr
-
 查看集群中所有节点是否都已启动成功：
 http://centos-vm0:8983/solr/#/~cloud?view=tree
+
+5、solr 6分词引入
+https://github.com/chenlb/mmseg4j-solr/tree/mmseg4j-solr-2.3.0
+
+6、solr config
+//上传配置文件
+java -classpath .:/usr/share/software/solr/solr-6.6.0/server/solr-webapp/webapp/WEB-INF/lib/* org.apache.solr.cloud.ZkCLI -cmd upconfig -confdir /usr/share/software/solr/configs/config_solr_demo -confname solr_demo -zkhost centos-vm0:2181,centos-vm1:2181,centos-vm2:2181,centos-vm3:2181
+//将配置文件盒collection联系起来
+java -classpath .:/usr/share/software/solr/solr-6.6.0/server/solr-webapp/webapp/WEB-INF/lib/* org.apache.solr.cloud.ZkCLI -cmd linkconfig -collection solr_demo -confname solr_demo -zkhost centos-vm0:2181,centos-vm1:2181,centos-vm2:2181,centos-vm3:2181
+//创建collection
+http://centos-vm0:8983/solr/admin/collections?action=CREATE&name=solr_demo&numShards=3&replicationFactor=2&maxShardsPerNode=2&collection.configName=solr_demo&createNodeSet=10.7.250.112:8983_solr,10.7.250.192:8983_solr,10.7.250.193:8983_solr,10.7.250.194:8983_solr
+//删除collection
+http://centos-vm0:8983/solr/admin/collections?action=DELETE&name=solr_demo
+//全量索引
+http://121.199.30.12/IWSearchSOA/se/index.action?&core=solr_demo&pwd=chentong&mode=indexAll

@@ -1,0 +1,3 @@
+o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: Error loading config name for collection new_core
+
+curl 'http://localhost:8983/solr/admin/collections?action=delete&name=new_core'
